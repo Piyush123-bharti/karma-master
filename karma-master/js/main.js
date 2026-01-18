@@ -51,15 +51,13 @@ $(document).ready(function () {
   $(".active-banner-slider").owlCarousel({
     items: 1,
     autoplay: true,
-    autoplayTimeout: 4000,
+    autoplayTimeout: 5000,
     autoplayHoverPause: true,
-    smartSpeed: 800,
-    animateOut: 'slideOutLeft',
-    animateIn: 'slideInRight',
+    smartSpeed: 1000,
     loop: true,
     nav: true,
     navText: ["<img src='img/banner/prev.png'>", "<img src='img/banner/next.png'>"],
-    dots: false
+    dots: true
   });
 
   /*=================================
